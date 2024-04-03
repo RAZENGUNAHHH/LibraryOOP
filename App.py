@@ -1,6 +1,7 @@
 from PyQt6.QtCore import QSize, Qt
 from PyQt6.QtGui import QImage, QPalette, QBrush
 from PyQt6.QtWidgets import QApplication, QWidget, QPushButton, QHBoxLayout, QVBoxLayout, QLabel, QInputDialog
+from oop import *
 
 class MainWindow(QWidget):
     def __init__(self):
